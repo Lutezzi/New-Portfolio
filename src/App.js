@@ -13,11 +13,11 @@ function App() {
       const scrollToTopBtn = document.getElementById('scrollToTopBtn');
 
       if (window.scrollY > 50) {
-        header.style.backgroundColor = 'rgba(1, 1, 1, 0.5)'; // Kaydırıldığında opak yap
-        scrollToTopBtn.style.display = 'block'; // Butonu göster
+        header.style.backgroundColor = 'rgba(1, 1, 1, 0.5)';
+        scrollToTopBtn.style.display = 'block';
       } else {
-        header.style.backgroundColor = 'rgba(1, 1, 1, 0.8)'; // Başlangıçta transparan yap
-        scrollToTopBtn.style.display = 'none'; // Butonu gizle
+        header.style.backgroundColor = 'rgba(1, 1, 1, 0.8)';
+        scrollToTopBtn.style.display = 'none';
       }
     };
 

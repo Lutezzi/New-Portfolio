@@ -8,7 +8,7 @@ body {
 }
 
 header {
-  background-color: rgba(40, 44, 52, 0.8); /* Transparan arka plan */
+  background-color: rgba(40, 44, 52, 0.8);
   color: white;
   padding: 20px;
   text-align: center;
@@ -16,7 +16,7 @@ header {
   width: 100%;
   top: 0;
   z-index: 1000;
-  transition: background-color 0.3s; /* Kaydırma sırasında arka plan rengini yumuşakça değiştirmek için */
+  transition: background-color 0.3s;
 }
 
 header nav a {
@@ -89,7 +89,7 @@ h2 {
   }
 
   section {
-    padding: 100px 15px 15px; /* Adjusted for fixed header */
+    padding: 100px 15px 15px;
   }
 
   .contact form {
